@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
+    <title>Title</title>
+    <style>
+        html,body {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            width: 100%;
+        }
+        .header {
+            height: 50px;
+            background-color: #000;
+        }
+        .footer {
+            height: 140px;
+
+        }
+        .content {
+            flex: 1;
+            background-color:#90e649;
+
+        }
+        .main {
+            background: url("./images/bg.jpg") no-repeat left top;
+        }
+        .main-bg {
+            height: 10px;
+            background: url("./images/bg3.jpg") no-repeat left bottom ;
+
+        }
+    </style>
+</head>
+<body>
+ <div class="wrapper">
+     <div class="header"></div>
+     <div class="content">
+         <div class="main"></div>
+         <div class="main-bg"></div>
+     </div>
+     <div class="footer"></div>
+ </div>
+
+</body>
+</html>
